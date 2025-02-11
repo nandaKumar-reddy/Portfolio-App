@@ -27,8 +27,8 @@ function Projects() {
       name: "Portfolio",
       description: "Personal Portfolio built with React.js & Tailwind CSS",
       links: {
-        gitHub: "https://github.com/talhashah-dev/portfolio",
-        hosted: "https://talhashah.vercel.app/"
+        gitHub: "https://github.com/karteekkr97/Portfolio-App",
+        hosted: "https://karteekkr-portfolio.netlify.app/"
       },
       tags: [
         "React", "Tailwind", "Javascript"
