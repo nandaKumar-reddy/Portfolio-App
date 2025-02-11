@@ -1,4 +1,5 @@
-![Screenshot](src/assets/images/portfolio.png)
+![Karteek-K-R-02-11-2025_03_58_PM](https://github.com/user-attachments/assets/8267264d-4356-4e1f-b43d-810c0807cb56)
+
 
 # Portfolio Website
 
@@ -36,7 +37,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/talhashah-dev/portfolio.git
+   git clone https://github.com/karteekkr97/Portfolio-App
    ```
 
 2. Navigate to the project directory:
