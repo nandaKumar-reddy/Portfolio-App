@@ -40,7 +40,7 @@ function Navbar({ sendDataToParent }) {
 
       {/* Navigation */}
       <nav
-        className={`flex gap-8 max-md:flex-col max-md:mt-6 ${
+        className={`flex gap-8 items-center max-md:flex-col max-md:mt-6 ${
           menuOpen ? "max-md:flex" : "max-md:hidden"
         }`}
       >
@@ -64,6 +64,16 @@ function Navbar({ sendDataToParent }) {
             )
           )}
         </ul>
+
+        {/* Download Resume Button */}
+        <a
+          href="/KARTEEK K R RESUME.pdf" // Link to the resume file inside the public folder
+          download="Karteek_KR_Resume.pdf" // Set the downloaded file name
+          className="px-4 py-2 bg-yellow-300 whitespace-nowrap text-black font-semibold rounded-lg 
+                     hover:bg-orange-500 transition duration-300"
+        >
+          Download Resume
+        </a>
 
         {/* Social Links */}
         <ul className="hidden justify-around items-center mt-12 max-md:flex">
