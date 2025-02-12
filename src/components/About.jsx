@@ -3,7 +3,7 @@ import coding_gif from "../assets/images/coding.gif"
 
 function About() {
   return (
-    <div className="mx-auto h-auto my-36 max-xl:my-20" id="about">
+    <div className="mx-auto h-auto mb-36 sm:pt-20 pt-5" id="about">
       <div className="flex gap-6 justify-between items-center max-md:flex-wrap max-xl:justify-center">
         <div className="w-1/2 max-xl:w-full text-left max-md:text-center">
           <h1 className="text-5xl max-md:text-4xl mb-5">Hi, I'm Karteek 👋</h1>

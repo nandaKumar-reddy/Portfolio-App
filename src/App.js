@@ -34,8 +34,9 @@ function App() {
   window.addEventListener("scroll", toggleVisible);
 
   return (
+    <>
+    <Navbar sendDataToParent={handleDataFromChild} />
     <div className="bg-gradient-to-br from-[#0f2027] to-[#203a43] to-[#2c5364] max-md:px-4 max-xl:px-10 op-[0.8px] text-white px-44 min-h-screen pb-10">
-      <Navbar sendDataToParent={handleDataFromChild} />
       {loading ? (
         <Loader />
       ) : (
@@ -60,6 +61,7 @@ function App() {
         )
       )}
     </div>
+    </>
   );
 }
 

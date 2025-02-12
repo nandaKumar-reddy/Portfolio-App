@@ -18,7 +18,7 @@ function Navbar({ sendDataToParent }) {
   };
 
   return (
-    <div className="flex justify-between items-center pt-6 mb-8 max-md:mb-4 max-md:block">
+    <div className="flex justify-between items-center sm:py-6 py-4 px-6 sm:px-12  max-md:block bg-gradient-to-br from-[#1b2a35] to-[#1b2a35] sticky top-0 bottom-0 z-[999]">
       {/* Logo */}
       <div className="flex justify-between w-full items-center">
         <a href="/">
@@ -33,14 +33,14 @@ function Navbar({ sendDataToParent }) {
         </a>
 
         {/* Mobile Menu Button */}
-        <button className="text-3xl hidden max-md:block" onClick={handleMenu}>
+        <button className="text-3xl hidden max-md:block text-yellow-300" onClick={handleMenu}>
           {menuOpen ? <IoMdClose className="text-yellow-300" /> : <IoMdMenu />}
         </button>
       </div>
 
       {/* Navigation */}
       <nav
-        className={`flex gap-8 items-center max-md:flex-col max-md:mt-6 ${
+        className={`flex gap-8 sm:items-center items-inherit max-md:flex-col max-md:mt-6 ${
           menuOpen ? "max-md:flex" : "max-md:hidden"
         }`}
       >
@@ -69,14 +69,14 @@ function Navbar({ sendDataToParent }) {
         <a
           href="/KARTEEK K R RESUME.pdf" // Link to the resume file inside the public folder
           download="Karteek_KR_Resume.pdf" // Set the downloaded file name
-          className="px-4 py-2 bg-yellow-300 whitespace-nowrap text-black font-semibold rounded-lg 
+          className="px-4 py-2 bg-yellow-300 whitespace-nowrap text-center text-black font-semibold rounded-lg 
                      hover:bg-orange-500 transition duration-300"
         >
           Download Resume
         </a>
 
         {/* Social Links */}
-        <ul className="hidden justify-around items-center mt-12 max-md:flex">
+        <ul className="hidden justify-around mt-12 max-md:flex">
           <li>
             <a
               href="https://github.com/karteekkr97"
