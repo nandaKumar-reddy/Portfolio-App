@@ -3,6 +3,16 @@ import {
   HTML_Logo,
   CSS_Logo,
   JavaScript_Logo,
+  python_Logo,
+  php_Logo,
+  laravel_Logo,
+  magento_Logo,
+  django_Logo,
+  mysql_Logo,
+  postman_Logo,
+  jira_Logo,
+  bitbucket_Logo,
+  aws_Logo,
   Jquery_Logo,
   Bootstrap_Logo,
   React_Logo,
@@ -23,27 +33,31 @@ function Skills() {
 
   const cards = [
     {
-      title: "Languages",
+      title: "Programming Languages",
       items: [
-        { src: JavaScript_Logo, alt: "JavaScript" },
-        { src: HTML_Logo, alt: "HTML5" },
-        { src: CSS_Logo, alt: "CSS3" },
+
+        { src: python_Logo, alt: "Python" },
+        { src: php_Logo, alt: "PHP" },
       ],
     },
     {
       title: "Library and Frameworks",
       items: [
         { src: React_Logo, alt: "React" },
-        { src: Bootstrap_Logo, alt: "Bootstrap" },
+        { src: laravel_Logo, alt: "Laravel" },
+        { src: magento_Logo, alt: "Magento" },
+        { src: django_Logo, alt: "Django" },
+        // { src: Bootstrap_Logo, alt: "Bootstrap" },
         { src: Tailwind_Logo, alt: "Tailwind" },
-        { src: Redux_Logo, alt: "Redux" },
         { src: Jquery_Logo, alt: "Jquery" },
       ],
     },
     {
-      title: "Testing Tools",  // New section for testing tools
+      title: "Scripting Languages",  // New section for testing tools
       items: [
-        { src: Jest_Logo, alt: "Jest" },
+        { src: JavaScript_Logo, alt: "JavaScript" },
+        { src: HTML_Logo, alt: "HTML5" },
+        { src: CSS_Logo, alt: "CSS3" },
       ],
     },
     {
@@ -54,10 +68,20 @@ function Skills() {
       ],
     },
     {
+      title: "Database",
+      items: [
+        { src: mysql_Logo, alt: "MySQL" },
+        { src: aws_Logo, alt: "AWS" },
+      ],
+    },
+    {
       title: "Other tools & Services",
       items: [
         { src: Firebase_Logo, alt: "Firebase" },
         { src: VSCode_Logo, alt: "Visual Studio Code" },
+        { src: postman_Logo, alt: "Postman" },
+        { src: jira_Logo, alt: "Jira" },
+        { src: bitbucket_Logo, alt: "Bitbucket" },
       ],
     },
   ];
@@ -74,29 +98,29 @@ function Skills() {
 
       <div className="flex max-sm:flex-col items-center justify-between mt-14 gap-10 flex-wrap">
 
-        {cards.map((value, index )=> {
+        {cards.map((value, index) => {
           return (
-              <div className="flex flex-col gap-10 max-sm:gap-5 max-md:w-full w-5/12" key={index}>
-                <div className="flex flex-col gap-5">
-                  <h4 className="text-2xl">{value.title}</h4>
-                  <div className="flex gap-5 max-md:flex-wrap">
-                      {
-                        value.items.map((icon, id) => {
-                          return (
-                            <div className="p-1 h-16 w-16 flex justify-center items-center bg-white rounded-full hover:bg-slate-300" onMouseMove={() => setName(icon.alt)} onMouseLeave={() => handleLeave(null)} key={id}>
-                            <img src={icon.src} alt={icon.alt} className="h-10"  />
-                            </div>
-                          )
-                        })
-                      }
-                  </div>
+            <div className="flex flex-col gap-10 max-sm:gap-5 max-md:w-full w-5/12" key={index}>
+              <div className="flex flex-col gap-5">
+                <h4 className="text-2xl">{value.title}</h4>
+                <div className="flex gap-5 max-md:flex-wrap">
+                  {
+                    value.items.map((icon, id) => {
+                      return (
+                        <div className="p-1 h-16 w-16 flex justify-center items-center bg-white rounded-full hover:bg-slate-300" onMouseMove={() => setName(icon.alt)} onMouseLeave={() => handleLeave(null)} key={id}>
+                          <img src={icon.src} alt={icon.alt} className="h-10" />
+                        </div>
+                      )
+                    })
+                  }
                 </div>
               </div>
+            </div>
           )
         })}
 
       </div>
-      
+
     </div>
   );
 }

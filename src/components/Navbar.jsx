@@ -28,7 +28,7 @@ function Navbar({ sendDataToParent }) {
             hover:scale-105 transition-transform duration-300"
             onClick={handleLinkClick}
           >
-            Karteek K R
+           Nandakumar R
           </h1>
         </a>
 
@@ -67,8 +67,8 @@ function Navbar({ sendDataToParent }) {
 
         {/* Download Resume Button */}
         <a
-          href="/KARTEEK K R RESUME.pdf" // Link to the resume file inside the public folder
-          download="Karteek_KR_Resume.pdf" // Set the downloaded file name
+          href="/Nandakumar R Resume.pdf" // Link to the resume file inside the public folder
+          download="Nandakumar_R_Resume.pdf" // Set the downloaded file name
           className="px-4 py-2 bg-yellow-300 whitespace-nowrap text-center text-black font-semibold rounded-lg 
                      hover:bg-orange-500 transition duration-300"
         >
@@ -79,7 +79,7 @@ function Navbar({ sendDataToParent }) {
         <ul className="hidden justify-around mt-12 max-md:flex">
           <li>
             <a
-              href="https://github.com/karteekkr97"
+              href="https://github.com/nandaKumar-reddy"
               className="text-4xl text-gray-400 hover:text-white transition-all duration-300"
               target="_blank"
               rel="noreferrer"
@@ -89,7 +89,7 @@ function Navbar({ sendDataToParent }) {
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/karthik-shetty-41ab37177/"
+              href="https://www.linkedin.com/in/nanda-r-b467ab210/"
               className="text-4xl text-gray-400 hover:text-blue-500 transition-all duration-300"
               target="_blank"
               rel="noreferrer"

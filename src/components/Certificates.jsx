@@ -1,5 +1,5 @@
 import React from "react";
-import { Design_Certificate, JS_Certificate } from "../assets/images";
+import { Design_Certificate, JS_Certificate, ai_Certificate, solid_principles_Certificate } from "../assets/images";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Certificates = () => {
@@ -17,6 +17,22 @@ const Certificates = () => {
       description:
         "This certification teaches JavaScript basics variables, arrays, objects, functions, DOM and advanced topics OOP, Functional Programming, algorithms, local storage, API usage.",
       image: JS_Certificate,
+      imageAlt: "Lagacy JavaScript Certificate",
+      link: "https://www.freecodecamp.org/certification/syedtalha3/javascript-algorithms-and-data-structures",
+    },
+    {
+      title: "JavaScript Algorithms and Data Stracture",
+      description:
+        "This certification teaches JavaScript basics variables, arrays, objects, functions, DOM and advanced topics OOP, Functional Programming, algorithms, local storage, API usage.",
+      image: ai_Certificate,
+      imageAlt: "Lagacy JavaScript Certificate",
+      link: "https://www.freecodecamp.org/certification/syedtalha3/javascript-algorithms-and-data-structures",
+    },
+    {
+      title: "JavaScript Algorithms and Data Stracture",
+      description:
+        "This certification teaches JavaScript basics variables, arrays, objects, functions, DOM and advanced topics OOP, Functional Programming, algorithms, local storage, API usage.",
+      image: solid_principles_Certificate,
       imageAlt: "Lagacy JavaScript Certificate",
       link: "https://www.freecodecamp.org/certification/syedtalha3/javascript-algorithms-and-data-structures",
     },

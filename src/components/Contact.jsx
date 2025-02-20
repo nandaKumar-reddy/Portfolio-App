@@ -8,13 +8,13 @@ function Contact(){
         <p className="text-white text-base">
           DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.
         </p>
-        <a href="tel:+923349009827" className="text-white text-2xl hover:text-white">+91-7676380238</a>
-        <a href="mailto:syedtalhadev7@gmail.com" className="text-white text-2xl hover:text-white">karthikkrshetty9@gmail.com</a>
+        <a href="tel:+923349009827" className="text-white text-2xl hover:text-white">+91-9945813567</a>
+        <a href="mailto:syedtalhadev7@gmail.com" className="text-white text-2xl hover:text-white">nandakumarr522@gmail.com</a>
         <div className="flex justify-center gap-5 mt-10">
-          <a href="https://github.com/karteekkr97" target="_blank" className="text-4xl cursor-pointer " rel="noreferrer" >
+          <a href="https://github.com/nandaKumar-reddy" target="_blank" className="text-4xl cursor-pointer " rel="noreferrer" >
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/karthik-shetty-41ab37177/" target="_blank" className="text-4xl cursor-pointer " rel="noreferrer" >
+          <a href="https://www.linkedin.com/in/nanda-r-b467ab210/" target="_blank" className="text-4xl cursor-pointer " rel="noreferrer" >
             <FaLinkedin />
           </a>
         </div>
