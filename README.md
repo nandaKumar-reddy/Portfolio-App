@@ -1,4 +1,5 @@
-![Karteek-K-R-02-11-2025_03_58_PM](https://github.com/user-attachments/assets/8267264d-4356-4e1f-b43d-810c0807cb56)
+![portfolio](https://github.com/user-attachments/assets/ef7f8a99-4100-49f9-a76a-ba859e3afeea)
+
 
 
 # Portfolio Website
