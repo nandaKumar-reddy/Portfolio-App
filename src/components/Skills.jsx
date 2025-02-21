@@ -14,13 +14,10 @@ import {
   bitbucket_Logo,
   aws_Logo,
   Jquery_Logo,
-  Bootstrap_Logo,
   React_Logo,
   Git_Logo,
   Github_Logo,
   Firebase_Logo,
-  Jest_Logo,
-  Redux_Logo,
   VSCode_Logo,
   Tailwind_Logo
 } from "../assets/images/index";
